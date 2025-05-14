@@ -23,6 +23,7 @@ export default function SignupPage() {
             <hr />
             <label htmlFor = "username">username</label>
             <input
+            className = "p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600"
                 id = "username"
                 type = "text"
                 value = {user.username}
