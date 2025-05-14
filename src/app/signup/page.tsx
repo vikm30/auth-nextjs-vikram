@@ -47,7 +47,11 @@ export default function SignupPage() {
                 value = {user.password}
                 onChange = {(e) => setUser({...user, password: e.target.value})}
                 placeholder = "password"
-                />        
+                />    
+                <button  
+                onClick = {onSignup}
+                className = "p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600">Signup here</button>
+                <Link href = "/login">Visit login page</Link>
             </div>
             
             
